@@ -29,23 +29,23 @@ const Hero = () => {
 
         <TypeAnimation
   sequence={[
-    'Full-Stack Developer 💻',
+    'Full-Stack Developer',
     2000,
-    'UI/UX Enthusiast 🎨',
+    'UI/UX Enthusiast',
     2000,
-    'Tech Explorer 🚀',
+    'Tech Explorer',
     2000,
-    'Problem Solver 🧠',
+    'Problem Solver',
     2000,
-    'Lifelong Learner 📚',
+    'Lifelong Learner',
     2000,
-    'Coding with Innovation ✨',
+    'Coding with Innovation',
     2000,
-    'DSA Enthusiast 🔢',
+    'DSA Enthusiast',
     2000,
-    'Designing with purpose 🎯',
+    'Designing with purpose',
     2000,
-    'Creating Seamless Experiences 💡',
+    'Creating Seamless Experiences',
     2000,
   ]}
   wrapper="span"
