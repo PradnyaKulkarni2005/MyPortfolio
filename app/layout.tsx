@@ -4,6 +4,9 @@ import { ThemeProvider } from '@/app/context/ThemeContext'
 export const metadata = {
   title: 'Pradnya Kulkarni Portfolio',
   description: 'Personal portfolio built with Next.js',
+  icons:{
+    icon:"/logo.png"
+  }
 }
 
 export default function RootLayout({
