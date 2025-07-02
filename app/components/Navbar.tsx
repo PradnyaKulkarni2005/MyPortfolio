@@ -17,11 +17,11 @@ const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/80 dark:bg-[#0F172A]/80 shadow-md transition-all duration-300">
+    <nav className="fixed top-0 w-full z-50 backdrop-blur-md bg-white/80 dark:bg-[#0F172A]/80 shadow-md transition-all duration-300 scroll-smooth">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="text-2xl font-bold text-gray-800 dark:text-white tracking-tight">
-          <Link href="#hero" scroll={false} className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+          <Link href="#hero" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
             My Portfolio
           </Link>
         </div>
@@ -32,7 +32,6 @@ const Navbar = () => {
             <Link
               key={link.label}
               href={link.href}
-              scroll={false}
               className="text-gray-700 dark:text-gray-200 hover:text-indigo-600 dark:hover:text-indigo-400 transition font-medium"
             >
               {link.label}
@@ -70,7 +69,6 @@ const Navbar = () => {
             <Link
               key={link.label}
               href={link.href}
-              scroll={false}
               onClick={() => setIsOpen(false)}
               className="block text-lg text-gray-800 dark:text-slate-200 hover:text-indigo-600 dark:hover:text-indigo-400 transition font-medium"
             >
