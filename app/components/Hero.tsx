@@ -20,7 +20,7 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
       >
         <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight text-slate-800 dark:text-white">
-          Hello, I'm <br />
+          Hello, I&apos; <br />
           <span className="bg-gradient-to-r from-[#663780]  to-[#e349f1] dark:from-[#A3D9A5] dark:via-[#B8C1EC] dark:to-[#C8E6C9] bg-clip-text text-transparent">
             Pradnya Kulkarni
           </span>{' '}
@@ -72,7 +72,7 @@ const Hero = () => {
             href="https://www.linkedin.com/in/pradnya-kulkarni-8b92b42b9"
             className="px-6 py-3 rounded-full font-semibold text-slate-800 bg-gradient-to-r from-[#FDE2E4] to-[#CDEDFD] hover:from-[#FACBD2] hover:to-[#BDE1FF] dark:text-black dark:from-[#A3D9A5] dark:to-[#B8C1EC] shadow-md hover:shadow-lg transition-all"
           >
-            ✨ Connect with Me
+            Connect with Me
           </a>
         </div>
 

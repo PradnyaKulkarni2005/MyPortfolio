@@ -6,7 +6,7 @@ import Hero from '@/app/components/Hero';
 import Projects from '@/app/components/Projects';
 import About from '@/app/components/About';
 import Achievements from '@/app/components/Achievements';
-import { motion } from 'framer-motion';
+
 
 
 export default function Home() {
