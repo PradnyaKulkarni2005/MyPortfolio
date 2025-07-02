@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { FiAward } from 'react-icons/fi';
+import { FaChartLine } from 'react-icons/fa';
 
 const achievements = [
   {
@@ -45,7 +46,7 @@ const Achievements = () => {
       className="scroll-mt-20 py-20 px-6 md:px-16 bg-gradient-to-br from-indigo-50 via-white to-purple-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300"
     >
       <motion.div
-        className="flex items-center justify-center gap-3 mb-12"
+        className="flex items-center justify-center gap-3 mb-8"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
@@ -56,6 +57,25 @@ const Achievements = () => {
         </h2>
       </motion.div>
 
+      {/* Codolio Profile Link */}
+      <motion.div
+        className="text-center mb-10"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <a
+          href="https://codolio.com/profile/pjk1245"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-5 py-3 text-indigo-700 dark:text-indigo-300 bg-indigo-100 dark:bg-indigo-800 hover:bg-indigo-200 dark:hover:bg-indigo-700 rounded-full text-sm font-semibold transition"
+        >
+          <FaChartLine className="text-base" />
+          Click to View My DSA & Development Progress
+        </a>
+      </motion.div>
+
+      {/* Certificates Section */}
       <div className="overflow-x-auto">
         <div className="flex gap-6 md:gap-8 px-1 min-w-max">
           {achievements.map((achieve, idx) => (
