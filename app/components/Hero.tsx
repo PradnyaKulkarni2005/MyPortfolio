@@ -20,7 +20,7 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
       >
         <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight text-slate-800 dark:text-white">
-          Hello, I&apos; <br />
+          Hello, I&apos;m <br />
           <span className="bg-gradient-to-r from-[#663780]  to-[#e349f1] dark:from-[#A3D9A5] dark:via-[#B8C1EC] dark:to-[#C8E6C9] bg-clip-text text-transparent">
             Pradnya Kulkarni
           </span>{' '}
