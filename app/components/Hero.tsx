@@ -124,12 +124,12 @@ const Hero = () => {
         <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-transparent bg-gradient-to-tr from-[#FBCFE8] to-[#CDEDFD] dark:from-[#B8C1EC] dark:to-[#A3D9A5] p-1 shadow-xl">
           <div className="rounded-full overflow-hidden w-full h-full">
             <Image
-              src="/MyPhoto.png"
-              alt="Pradnya Kulkarni"
-              layout="fill"
-              objectFit="cover"
-              priority
-            />
+    src="/MyPhoto.png"
+    alt="My photo"
+    fill
+    className="object-cover rounded-full"
+    priority
+  />
           </div>
         </div>
       </motion.div>

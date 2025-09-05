@@ -8,8 +8,10 @@ import { useTheme } from '@/app/context/ThemeContext';
 const navLinks = [
   { label: 'Home', href: '#hero' },
   { label: 'About', href: '#about' },
+   { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Achievements', href: '#achievements' },
+ 
 ];
 
 const Navbar = () => {
