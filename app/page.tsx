@@ -6,13 +6,13 @@ import Hero from '@/app/components/Hero';
 import Projects from '@/app/components/Projects';
 import About from '@/app/components/About';
 import Achievements from '@/app/components/Achievements';
-
-
+import Experience from '@/app/components/Experience';
 
 export default function Home() {
   return (
     <>
       <Navbar />
+    
       <main className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
         <Hero />
         <div className="overflow-hidden leading-none">
@@ -24,9 +24,6 @@ export default function Home() {
     <path d="M0,64L80,80C160,96,320,128,480,154.7C640,181,800,203,960,197.3C1120,192,1280,160,1360,144L1440,128V320H1360C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320H0Z" />
   </svg>
 </div>
-
-
-
         <About />
         <div className="overflow-hidden leading-none">
   <svg
@@ -37,7 +34,7 @@ export default function Home() {
     <path d="M0,64L80,80C160,96,320,128,480,154.7C640,181,800,203,960,197.3C1120,192,1280,160,1360,144L1440,128V320H1360C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320H0Z" />
   </svg>
 </div>
-
+        <Experience />
         <Projects />
         <div className="overflow-hidden leading-none">
   <svg className="w-full h-24 fill-indigo-100 dark:fill-indigo-900" viewBox="0 0 1440 320" preserveAspectRatio="none">
