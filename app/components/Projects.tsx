@@ -41,6 +41,37 @@ const allProjects: ProjectType[] = [
     demo: 'https://dreamcanvas-murex.vercel.app',
     tech: ['Next.js', 'FastAPI', 'TypeScript', 'Supabase', 'Groq LLM', 'BERT', 'SVM'],
   },
+  
+  
+  {
+    name: 'Yash Dabeli',
+    description:
+      'Full-stack food ordering platform with online ordering, customer reviews, and real-time WhatsApp notifications for order management.',
+    images: [
+      '/projects/yashdabeli/image1.png',
+      '/projects/yashdabeli/image2.png',
+      '/projects/yashdabeli/image3.png',
+      '/projects/yashdabeli/image4.png',
+    ],
+    github: 'https://github.com/PradnyaKulkarni2005/YashDabeli.git',
+    demo: 'https://yash-dabeli.vercel.app',
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Twilio API'],
+  },
+  {
+    name: 'HerWorld',
+    description:
+      'Community platform for women offering discussion forums, curated resources, and an interactive space for networking, learning, and support.',
+    images: [
+      '/projects/herworld/image1.png',
+      '/projects/herworld/image2.png',
+      '/projects/herworld/image3.png',
+      '/projects/herworld/image4.png',
+      '/projects/herworld/image5.png',
+    ],
+    github: 'https://github.com/PradnyaKulkarni2005/SHE_SOLVES_TriadCoders.git',
+    demo: 'https://herworld-women.vercel.app',
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+  },
   {
     name: 'Project Diary',
     description:
@@ -83,35 +114,6 @@ const allProjects: ProjectType[] = [
     github: 'https://github.com/PradnyaKulkarni2005/Library-Management-System.git',
     demo: 'https://library-management-system-umber-six.vercel.app',
     tech: ['React', 'Node.js', 'Express.js', 'MySQL', 'JWT'],
-  },
-  {
-    name: 'Yash Dabeli',
-    description:
-      'Full-stack food ordering platform with online ordering, customer reviews, and real-time WhatsApp notifications for order management.',
-    images: [
-      '/projects/yashdabeli/image1.png',
-      '/projects/yashdabeli/image2.png',
-      '/projects/yashdabeli/image3.png',
-      '/projects/yashdabeli/image4.png',
-    ],
-    github: 'https://github.com/PradnyaKulkarni2005/YashDabeli.git',
-    demo: 'https://yash-dabeli.vercel.app',
-    tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Twilio API'],
-  },
-  {
-    name: 'HerWorld',
-    description:
-      'Community platform for women offering discussion forums, curated resources, and an interactive space for networking, learning, and support.',
-    images: [
-      '/projects/herworld/image1.png',
-      '/projects/herworld/image2.png',
-      '/projects/herworld/image3.png',
-      '/projects/herworld/image4.png',
-      '/projects/herworld/image5.png',
-    ],
-    github: 'https://github.com/PradnyaKulkarni2005/SHE_SOLVES_TriadCoders.git',
-    demo: 'https://herworld-women.vercel.app',
-    tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
   },
 ];
 
