@@ -1,7 +1,7 @@
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
-import { motion, useInView, animate } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import {
   FaCode,
   FaLaptopCode,
@@ -11,7 +11,6 @@ import {
   FaTools,
   FaRocket,
   FaLightbulb,
-  FaUsers,
   FaQuoteLeft,
 } from 'react-icons/fa';
 
@@ -87,37 +86,6 @@ const stack = [
     items: ['Git', 'GitHub', 'VS Code', 'Figma', 'Vercel', 'Render'],
   },
 ];
-
-function StatValue({
-  value,
-  decimals = 0,
-  suffix = '',
-}: {
-  value: number;
-  decimals?: number;
-  suffix?: string;
-}) {
-  const ref = useRef<HTMLSpanElement>(null);
-  const isInView = useInView(ref, { once: true, margin: '-40px' });
-  const [display, setDisplay] = useState(0);
-
-  useEffect(() => {
-    if (!isInView) return;
-    const controls = animate(0, value, {
-      duration: 1.3,
-      ease: 'easeOut',
-      onUpdate: (v) => setDisplay(v),
-    });
-    return () => controls.stop();
-  }, [isInView, value]);
-
-  return (
-    <span ref={ref} className="tabular-nums">
-      {display.toFixed(decimals)}
-      {suffix}
-    </span>
-  );
-}
 
 function CornerBrackets({ className = '' }: { className?: string }) {
   return (
